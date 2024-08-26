@@ -1,0 +1,770 @@
+@media (max-width: 1440px){
+    nav ul{
+        gap: 14px;
+        padding-left: 0;
+
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+
+    .hotel__reservation__text {
+      width: 50%;
+    }
+
+    .hotel__reservation__text .service__order__form {
+      width: 100%;
+    }
+
+    .hotel__reservation__text p {
+      font-size: 18px;
+    }
+
+    .hotel__reservation__img .img:nth-child(1) {
+      width: 400px;
+      height: 450px;
+    }
+
+    .hotel__reservation__img .img:nth-child(2),
+    .hotel__reservation__img .img:nth-child(3) {
+      width: 160px;
+      height: 250px;
+    }
+
+    /* .hotel__reservation__img .img:nth-child(3) {
+      right: 10px;
+    } */
+    /* .hotel__reservation__img .img:nth-child(2) {
+      left: 10px;
+    } */
+}
+@media (max-width: 1370px) {
+    .study-interface .study-interface-content ul li {
+      width: 700px;
+    }
+
+    .study-interface .study-interface-content p {
+      width: 700px;
+    }
+
+    .study-interface .study-interface-content {
+      justify-content: space-between;
+    }
+  }
+  @media(max-width: 1220px){
+    nav .main-container{
+      width: 93%;
+    }
+    nav .main-container ul a{
+      font-size: 14px;
+    }
+  }
+
+@media (max-width: 1024px){
+  nav .main-container{
+    width: 90%;
+  }
+    .menu-div {
+        display: block;
+      }
+      nav .logo-container{
+        display: block;
+    }
+    nav .element{
+        display: none;
+    }
+    .top-nav .logo-container{
+        display: none;
+    }
+    .header .top-nav .main-container{
+        justify-content: center;
+    }
+    .top-nav ul li a i{
+        font-size: 18px;
+    }
+    .header .top-nav ul p{
+        font-size: 16px;
+    }
+    .dropdown-content{
+        position: relative;
+
+    }
+    .dropdown-content a{
+        padding-bottom: 15px;
+    }
+    .top-nav ul ul .language h3{
+        font-size: 22px !important;
+    }
+
+    .about-us .about-content{
+        margin-left: 60px;
+    }
+    .about-content h1{
+        font-size: 30px;
+    }
+    .about-content h2{
+        font-size: 26px;
+    }
+    .about-img-container{
+        position: relative;
+        padding-left: 20px;
+    }
+    .about-img-container .big-image{
+        width: 420px;
+        height: 540px;
+
+
+    }
+    .about-img-container .small-image{
+        width: 250px;
+        height: 310px;
+    }
+    /* footer */
+    footer .row{
+        gap: 0;
+    }
+    footer .top-footer {
+        padding: 20px;
+    }
+    footer .row div{
+        padding: 20px 0 ;
+    }
+    footer .row>*{
+        width: 50%;
+        max-width: 50%;
+    }
+    footer ul li a{
+        font-size: 16px;
+    }
+    .comments .item .item-text p:first-child:before{
+        top: 0;
+        left: -15px;
+    }
+    /* contact-page */
+    .contact-page{
+        position: relative;
+        padding: 120px 0;
+      }
+    .contact-page .contact-form{
+        width: 90%;
+    }
+    .contact-form .row .col-lg-6:first-child{
+        margin-bottom: 40px;
+    }
+
+    /* studing-page */
+    .study-english-page .studing .studing-img{
+        margin: auto;
+    }
+
+    /*  */
+    .study-interface .study-interface-content p {
+        font-size: 17px;
+        width: 500px;
+      }
+
+      .study-interface .study-interface-content ul li {
+        font-size: 17px;
+        width: 500px;
+      }
+
+      .study-interface .study-interface-content .section-images .img:nth-child(1) {
+        width: 320px;
+        height: 470px;
+      }
+
+      .study-interface .study-interface-content .section-images .img:nth-child(2) {
+        width: 150px;
+      }
+
+      .study-interface .study-interface-content .section-images .img:nth-child(3) {
+        width: 150px;
+      }
+
+      .tourism-interface-content .tourism-card {
+        height: 350px;
+      }
+
+}
+@media (max-width: 992px) {
+    .study-interface .study-interface-content {
+      flex-direction: column-reverse;
+      gap: 100px;
+    }
+
+    .study-interface .study-interface-content p {
+      width: 100%;
+    }
+
+    .study-interface .study-interface-content ul li {
+      width: 100%;
+    }
+
+    .study-interface .study-interface-content .section-images {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      /* display: none; */
+    }
+
+    .study-interface .study-interface-content .section-images .img:nth-child(1) {
+      width: 320px;
+      height: 370px;
+    }
+
+    .study-interface .study-interface-content .section-images .img:nth-child(3) {
+
+      bottom: -50px;
+    }
+    .study-interface .study-interface-content .section-images .img:nth-child(2) {
+
+      bottom: -50px;
+    }
+  }
+
+@media (max-width: 920px){
+    .study-intrefaces-carousel {
+        margin: 150px 0 100px;
+    }
+    .about-content h1{
+        font-size: 26px;
+    }
+    .about-content h2{
+        font-size: 22px;
+    }
+    .about-img-container .big-image{
+        width: 380px;
+    height: 500px;
+
+
+    }
+    .about-img-container .small-image{
+        width: 250px;
+        height: 290px;
+    }
+    .Tourist-destinations-carousel {
+        margin: 100px 0 100px;
+    }
+    /* about page */
+    .about-us-page .about-us-text ul{
+        padding: 0;
+    }
+
+
+    }
+@media (max-width:768px){
+    .landing h2 {
+        margin: 30px;
+        line-height: 1.6;
+        font-size: 24px;
+    }
+    .landing .landing-content h3 {
+        margin: 30px 30px 70px;
+        line-height: 1.6;
+        font-size: 22px;
+    }
+    .about-img-container .big-image {
+        width: 100%;
+        height: 470px;
+    }
+    .about-img-container .small-image {
+        width: 63%;
+        height: 270px;
+    }
+    .comments .item .item-text{
+        padding: 0 20px;
+        gap: 10px;
+    }
+    .comments .item .item-text p{
+       font-size: 14px;
+    }
+
+    footer .footer-cover{
+        width: 80%;
+        height: 320px;
+    }
+    /* contact page */
+    .contact-page .contact-form{
+        padding: 50px 20px;
+    }
+
+    /*  */
+    .tourism-interface-content .tourism-card {
+        width: calc(100% / 2 - 20px);
+        height: 300px;
+      }
+
+      .tourism-interface-content .tourism-card .text .text-head {
+        font-size: 18px;
+      }
+
+      .tourism__offer__card__container {
+        flex-direction: column;
+      }
+
+      .tourism__offer__card {
+        width: 100%;
+        height: auto;
+      }
+
+      .service__order .service__order__form {
+        width: 90%;
+      }
+
+      .tourism__offer_carousel {
+        display: block;
+      }
+
+      .tourism-offer-images {
+        display: none;
+      }
+
+      .hotel__reservation {
+        flex-direction: column-reverse;
+        gap: 100px;
+        margin-top: 30px;
+      }
+
+      .hotel__reservation__img {
+        width: 100%;
+      }
+
+      .hotel__reservation__img .img:nth-child(1) {
+        width: 300px;
+        height: 330px;
+      }
+
+      .hotel__reservation__img .img:nth-child(3) {
+
+        width: 130px;
+        height: 200px;
+        bottom: -60px;
+      }
+
+      .hotel__reservation__img .img:nth-child(2) {
+
+        width: 130px;
+        height: 200px;
+        bottom: -60px;
+      }
+
+      .hotel__reservation .hotel__reservation__text {
+        width: 100%;
+      }
+      .study-english-page .studing .studing-img, .study-offers-page .studing .studing-img{
+        margin: auto;
+      }
+      .summer-camp-page .camping .camping-img{
+        margin: auto;
+      }
+      .footer-end{
+        flex-direction: column;
+        gap: 10px;
+      }
+
+
+      .about-us-text h1{
+        font-size: 26px;
+      }
+      .about-us-page .about-us-text h2{
+        font-size: 20px;
+      }
+      .about-us-page .about-us-text ul li{
+        font-size: 20px;
+      }
+
+      .study-intrefaces-carousel h1,
+      .Tourist-destinations-carousel h1{
+        font-size: 24px;
+      }
+
+      .tourist-header a{
+        font-size: 22px;
+      }
+      .whatsapp-container{
+        bottom: 50px;
+      }
+      .whatsapp-main,
+      .whatsapp-option{
+        width: 60px;
+        height: 60px;
+      }
+      .whatsapp-main i,
+      .whatsapp-option i{
+        font-size: 40px;
+      }
+      .whatsapp-option{
+        padding: 26px;
+      }
+      .whatsapp-main::before{
+        padding: 26px;
+        left: -3px;
+      }
+}
+
+@media(max-width:620px){
+    .top-nav ul li a i{
+        font-size: 16px;
+    }
+    .header .top-nav ul p{
+        font-size: 14px;
+    }
+    .top-nav ul ul .language h3{
+        font-size: 18px !important;
+    }
+    .top-nav ul ul{
+        gap: 8px;
+    }
+    .header .top-nav .main-container>ul{
+        gap: 10px;
+    }
+    .header .top-nav a{
+        gap: 10px;
+        padding-right: 10px;
+    }
+    .study-intrefaces-carousel .owl-carousel .owl-nav button:last-child,
+    .Tourist-destinations-carousel .owl-carousel .owl-nav button:last-child{
+        right: -20px;
+    }
+    .study-intrefaces-carousel .owl-carousel .owl-nav button:first-child,
+    .Tourist-destinations-carousel .owl-carousel .owl-nav button:first-child{
+        left: -20px;
+    }
+    footer .footer-cover{
+        width: 80%;
+        height: 300px;
+    }
+    .summer-camp-page .camping .camping-img{
+        width:480px;
+        height: 500px;
+    }
+}
+
+@media(max-width: 570px){
+    .landing h2 {
+
+        font-size: 22px;
+    }
+    .landing .landing-content h3 {
+
+        font-size: 20px;
+    }
+    .landing .landing-content a {
+        padding: 15px 35px;
+        font-size: 20px;
+
+    }
+    .about-us .row{
+        flex-direction: column-reverse;
+    }
+    .about-img-container{
+        margin-bottom: 120px;
+    }
+    .about-img-container .big-image {
+        width: 100%;
+        height: 430px;
+    }
+    .about-img-container .small-image {
+        width: 55%;
+        height: 260px;
+    }
+    .about-us .about-content{
+        text-align: center;
+        margin-left: 0;
+    }
+    footer .footer-cover{
+        width: 80%;
+        height: 250px;
+    }
+    /* about page */
+    .about-us-page .about-us-gallary .col-6{
+        padding: 2px;
+      }
+      .about-us-page .about-us-text ul {
+        padding: 2px;
+    }
+    .study-english-page .studing .studing-img, .study-offers-page .studing .studing-img,
+    .study-english-page .studing .studing-img, .study-offers-page .studing .studing-img{
+        width: 370px;
+        height: 500px;
+      }
+      .summer-camp-page .camping .camping-img{
+        width:450px;
+        height: 480px;
+    }
+
+}
+@media(max-width:500px){
+    .header .top-nav ul p{
+        display: none;
+    }
+    footer .footer-cover{
+        width: 80%;
+        height: 200px;
+    }
+    .about-us-page .about-us-text ul {
+        padding: 5px;
+    }
+    /* study page */
+    .study-english-page .studing .studing-img{
+        width: 380px;
+        height: 525px;
+    }
+
+
+    /*  */
+    .service__order__form .input {
+        flex-direction: column;
+        margin: 10px 0;
+        gap: 10px;
+      }
+
+      .service__order__form .select__form {
+        width: 100%;
+      }
+
+      .service__order__form h3 {
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+
+      .service__order__form input {
+        font-size: 11px;
+      }
+
+      .service__order__form textarea {
+        font-size: 11px;
+        height: 100px;
+      }
+
+      .service__order__form select {
+        font-size: 11px;
+      }
+
+      .service__order__form__btn {
+        width: 140px;
+        height: 45px;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 15px auto;
+        transition: 0.3s;
+      }
+
+      .tourism__offer__card__container .tourism__offer__card ul {
+        width: 90%;
+      }
+
+      .tourism__offer__card__container .tourism__offer__card ul li {
+        font-size: 14px;
+        margin-top: 10px;
+      }
+
+      .tourism__offer__card__container .tourism__offer__card h3 {
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .tourism__offer__text p {
+        font-size: 15px;
+        margin-top: 20px;
+      }
+
+      .tourism__offer__text .price {
+        font-size: 15px;
+      }
+
+      .study-interface .study-interface-content .section-images .img:nth-child(1) {
+        height: 286px;
+      }
+
+      .study-interface .study-interface-content .section-images .img:nth-child(2) {
+
+        bottom: -50px;
+        width: 150px;
+        height: 200px;
+      }
+
+      .study-interface .study-interface-content .section-images .img:nth-child(3) {
+
+        bottom: -50px;
+        width: 150px;
+        height: 200px;
+      }
+
+      /* .hotel__reservation__img .img:nth-child(3) {
+        right: -3%;
+      } */
+
+      /* .hotel__reservation__img .img:nth-child(2) {
+        left: -3%;
+      } */
+
+      .hotel__reservation__text h2 {
+        font-size: 20px;
+      }
+
+      .hotel__reservation__text p {
+        font-size: 16px;
+      }
+      .summer-camp-page .camping .camping-img{
+        width:420px;
+        height: 460px;
+    }
+
+    .mainbutton{
+        margin: auto;
+      }
+
+      .study-english-page .studing h5{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .studing-text h2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 425px){
+
+    .landing h2 {
+
+        font-size: 20px;
+    }
+    .landing .landing-content h3 {
+
+        font-size: 18px;
+    }
+    /* study page */
+    .study-english-page .studing .studing-img{
+        width: 335px;
+        height: 500px;
+    }
+
+    /*  */
+    .tourism-interface-content .tourism-card {
+        width: 100%;
+      }
+      .study-english-page .studing .studing-img, .study-offers-page .studing .studing-img,
+      .study-english-page .studing .studing-img, .study-offers-page .studing .studing-img{
+        width: 320px;
+        height: 460px;
+      }
+      .summer-camp-page .camping .camping-img{
+        width:320px;
+        height: 400px;
+    }
+    footer .footer-end{
+        padding: 20px 13px;
+    }
+    footer .end-footer p,
+    .footer-end  a{
+        font-size: 14px;
+    }
+    .about-us-page .about-us-text h2{
+        font-size: 18px;
+      }
+      .about-us-page .about-us-text ul li{
+        font-size: 18px;
+      }
+}
+
+
+@media (max-width: 320px) {
+    .study-interface .study-interface-content .section-images .img:nth-child(2) {
+        width: 110px;
+        height: 200px;
+        right: 10px;
+    }
+
+    .study-interface .study-interface-content .section-images .img:nth-child(3) {
+        width: 110px;
+        height: 200px;
+        left: 10px;
+    }
+
+    .study-interface .study-interface-content .section-images .img:nth-child(1) {
+        height: 286px;
+        width: 90%;
+    }
+    .hotel__reservation__img .img-change:nth-child(2) {
+        left: 10px;
+
+    }
+    .hotel__reservation__img .img-change:nth-child(3) {
+        right: 10px;
+
+
+    }
+    .hotel__reservation__img .img-visa:nth-child(2) {
+        left: 10px;
+
+        width: 109px;
+        height: 187px;
+    }
+    .hotel__reservation__img .img-visa:nth-child(3) {
+        right: 10px;
+        width: 109px;
+        height: 187px;
+
+    }
+
+
+}
+
+
+
+
+@media (min-width: 1450px){
+    .study-interface .study-interface-content .section-images{
+     flex: 1;
+    }
+
+    .study-interface .study-interface-content ul li{
+        width: 945px;
+    }
+
+    .study-interface .study-interface-content p{
+        width: 945px;
+    }
+
+    .study-interface .study-interface-content .section-images .img:nth-child(1) {
+        background-color: #e9e9e991;
+        padding: 30px;
+        width: 500px;
+        height: 540px;
+        padding-bottom: 50px;
+    }
+
+    .study-interface .study-interface-content .section-images .img:nth-child(3) {
+        width: 220px;
+        height: 240px;
+    }
+
+    .study-interface .study-interface-content .section-images .img:nth-child(2) {
+        width: 220px;
+        height: 240px;
+
+    }
+    .hotel__reservation__img .img-change:nth-child(2) {
+        left: -50px;
+
+    }
+    .hotel__reservation__img .img-change:nth-child(3) {
+        right: -50px;
+
+    }
+    .hotel__reservation__img .img-visa:nth-child(2) {
+        left: -50px;
+
+    }
+    .hotel__reservation__img .img-visa:nth-child(3) {
+        right: -50px;
+
+    }
+}

@@ -1,0 +1,284 @@
+@media (max-width: 1370px) {
+  .study-interface .study-interface-content ul li {
+    width: 700px;
+  }
+
+  .study-interface .study-interface-content p {
+    width: 700px;
+  }
+
+  .study-interface .study-interface-content {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1024px) {
+  .study-interface .study-interface-content p {
+    font-size: 17px;
+    width: 500px;
+  }
+
+  .study-interface .study-interface-content ul li {
+    font-size: 17px;
+    width: 500px;
+  }
+
+  .study-interface .study-interface-content .section-images .img:nth-child(1) {
+    width: 320px;
+    height: 470px;
+  }
+
+  .study-interface .study-interface-content .section-images .img:nth-child(2) {
+    width: 150px;
+  }
+
+  .study-interface .study-interface-content .section-images .img:nth-child(3) {
+    width: 150px;
+  }
+
+  .tourism-interface-content .tourism-card {
+    height: 350px;
+  }
+
+  .hotel__reservation__text {
+    width: 50%;
+  }
+
+  .hotel__reservation__text .service__order__form {
+    width: 100%;
+  }
+
+  .hotel__reservation__text p {
+    font-size: 18px;
+  }
+
+  .hotel__reservation__img .img:nth-child(1) {
+    width: 400px;
+    height: 450px;
+  }
+
+  .hotel__reservation__img .img:nth-child(2),
+  .hotel__reservation__img .img:nth-child(3) {
+    width: 160px;
+    height: 250px;
+  }
+
+  .hotel__reservation__img .img:nth-child(3) {
+    right: 10px;
+  }
+  .hotel__reservation__img .img:nth-child(2) {
+    left: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .study-interface .study-interface-content {
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+
+  .study-interface .study-interface-content p {
+    width: 100%;
+  }
+
+  .study-interface .study-interface-content ul li {
+    width: 100%;
+  }
+
+  .study-interface .study-interface-content .section-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    /* display: none; */
+  }
+
+  .study-interface .study-interface-content .section-images .img:nth-child(1) {
+    width: 320px;
+    height: 370px;
+  }
+
+  .study-interface .study-interface-content .section-images .img:nth-child(3) {
+    left: 190px;
+    bottom: -50px;
+  }
+  .study-interface .study-interface-content .section-images .img:nth-child(2) {
+    right: 190px;
+    bottom: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tourism-interface-content .tourism-card {
+    width: calc(100% / 2 - 20px);
+    height: 300px;
+  }
+
+  .tourism-interface-content .tourism-card .text .text-head {
+    font-size: 18px;
+  }
+
+  .tourism__offer__card__container {
+    flex-direction: column;
+  }
+
+  .tourism__offer__card {
+    width: 100%;
+    height: auto;
+  }
+
+  .service__order .service__order__form {
+    width: 90%;
+  }
+
+  .tourism__offer_carousel {
+    display: block;
+  }
+
+  .tourism-offer-images {
+    display: none;
+  }
+
+  .hotel__reservation {
+    flex-direction: column-reverse;
+    gap: 100px;
+    margin-top: 30px;
+  }
+
+  .hotel__reservation__img {
+    width: 100%;
+  }
+
+  .hotel__reservation__img .img:nth-child(1) {
+    width: 300px;
+    height: 330px;
+  }
+
+  .hotel__reservation__img .img:nth-child(3) {
+    right: -30px;
+    width: 130px;
+    height: 200px;
+    bottom: -60px;
+  }
+
+  .hotel__reservation__img .img:nth-child(2) {
+    left: -35px;
+    width: 130px;
+    height: 200px;
+    bottom: -60px;
+  }
+
+  .hotel__reservation .hotel__reservation__text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .service__order__form .input {
+    flex-direction: column;
+    margin: 10px 0;
+    gap: 10px;
+  }
+
+  .service__order__form .select__form {
+    width: 100%;
+  }
+
+  .mainbutton{
+    margin: auto;
+  }
+
+  .service__order__form h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .service__order__form input {
+    font-size: 11px;
+  }
+
+  .service__order__form textarea {
+    font-size: 11px;
+    height: 100px;
+  }
+
+  .service__order__form select {
+    font-size: 11px;
+  }
+
+  .service__order__form__btn {
+    width: 140px;
+    height: 45px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 15px auto;
+    transition: 0.3s;
+  }
+
+  .tourism__offer__card__container .tourism__offer__card ul {
+    width: 90%;
+  }
+
+  .tourism__offer__card__container .tourism__offer__card ul li {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .tourism__offer__card__container .tourism__offer__card h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .tourism__offer__text p {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .tourism__offer__text .price {
+    font-size: 15px;
+  }
+
+  .study-interface .study-interface-content .section-images .img:nth-child(1) {
+    height: 286px;
+  }
+
+  .study-interface .study-interface-content .section-images .img:nth-child(2) {
+    right: 30px;
+    bottom: -50px;
+    width: 150px;
+    height: 200px;
+  }
+
+  .study-interface .study-interface-content .section-images .img:nth-child(3) {
+    left: 30px;
+    bottom: -50px;
+    width: 150px;
+    height: 200px;
+  }
+
+  .hotel__reservation__img .img:nth-child(3) {
+    right: 5%;
+  }
+
+  .hotel__reservation__img .img:nth-child(2) {
+    left: 5%;
+  }
+
+  .hotel__reservation__text h2 {
+    font-size: 20px;
+  }
+
+  .hotel__reservation__text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .tourism-interface-content .tourism-card {
+    width: 100%;
+  }
+}
